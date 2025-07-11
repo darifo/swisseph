@@ -182,6 +182,16 @@ const (
 	ParsecToAunit  = 206264.8062471                 // 秒差距到天文单位
 )
 
+// 文件常量
+const (
+	SeiFileNmaxplan   = 50
+	SeiFileEfposbegin = 500
+	SeFileSuffix      = "se1"
+	SeiNephfiles      = 7
+	SeiCurrFpos       = -1
+	SeiNmodels        = 8
+)
+
 // JPL天体索引
 const (
 	JMercury = 0
